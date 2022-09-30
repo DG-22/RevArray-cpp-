@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-void print( int arr[] , int n)
+void print( int arr[] , int x)
 {
-    for(int i=0;i<n;i++){
+    for(int i=0;i<x;i++){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
